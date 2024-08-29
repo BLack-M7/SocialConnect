@@ -26,6 +26,16 @@
                 border-radius: 3px;
                 border:none;
                 border-color: bisque;
+                background-image: url("search.png");
+                background-repeat:no-repeat;
+                background-position: right;
+            }
+            #search::placeholder{
+                padding:5px;
+                font-family:'Times New Roman', Times, serif;
+                font-weight:lighter;
+                font-size:16px;
+                opacity:45%;
             }
         </style>
     </head>
@@ -34,7 +44,7 @@
         </div> 
         <div id="bar2">
             <div id ="bar3">
-                SocialConnect.&nbsp<input type="text" id="search">
+                SocialConnect.&nbsp<input type="text" id="search" placeholder="Search for friends" id="words">
             </div>
         </div>
     </body>
