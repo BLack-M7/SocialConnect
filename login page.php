@@ -2,7 +2,7 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>colourcare | login</title>
+        <title>SocialConnect. | login</title>
         <style>
             #box {
                 height:100px;
